@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "immersivehud"
+version = "1.0.0"
+displayName = "Immersive HUD"
+logoFile = "icon.png"
+authors = "ASHES356"
+description = '''
+Hides the vanilla health, hunger, armour and experience bars and keeps the essentials at the edge of the screen, for a cleaner, less cluttered view. Everything is configurable in game.
+'''
+
+[[dependencies.immersivehud]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,21.2)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.immersivehud]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "CLIENT"
+
+# optional, purely so the config screen appears if it happens to be installed
+[[dependencies.immersivehud]]
+modId = "configured"
+type = "optional"
+versionRange = "*"
+ordering = "NONE"
+side = "CLIENT"

@@ -1,0 +1,24 @@
+# build output
+build/
+out/
+*.jar
+
+# machine specific: the jar list and paths of the local launcher
+classpath.txt
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipg
+.settings/
+.classpath
+.project
+
+# gradle (if someone opens this with Gradle anyway)
+.gradle/
+run/
+
+# OS
+Thumbs.db
+.DS_Store
